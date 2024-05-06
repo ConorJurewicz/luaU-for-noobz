@@ -1,0 +1,45 @@
+.Theme {
+    background-color: #282c34;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-header {
+    font-size: 4em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #ff6347;
+}
+
+.text{
+    font-size:1.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.content {
+    text-align: left;
+    max-width: 800px;
+}
+
+.content p,
+.content li {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.code_block{
+    padding: 10px;
+    border-radius: blue;
+    margin: 20px 0;
+    width:30%
+}
